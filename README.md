@@ -1,12 +1,46 @@
-# React + Vite
+# Admin Dashboard Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a responsive admin dashboard frontend built with **React**, **Vite**, **Material-UI (MUI)**, **React Router**, and **Recharts**.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Responsive layout with sidebar and top navbar
+- Dashboard with stat cards, charts, and responsive grids
+- Recharts for data visualization
+- Material-UI components and icons
+- Mobile-friendly with scroll fixes
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🧩 Tech Stack
+
+- React
+- Vite
+- Material-UI (MUI v5)
+- React Router DOM
+- Recharts
+
+---
+
+## 📦 Installation
+
+Clone the repo and install dependencies:
+
+
+git clone https://github.com/shagufta28/Admin-panel
+cd your-repo-name
+npm install
+🧪 Dependencies
+Make sure you have these installed:
+
+npm install @mui/material @emotion/react @emotion/styled
+npm install @mui/icons-material
+npm install react-router-dom
+npm install recharts
+Or install everything at once:
+npm install
+All dependencies are already listed in package.json, so npm install will handle them.
+
+💻 Run the App
+To start the development server:
+npm run dev
